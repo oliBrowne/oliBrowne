@@ -34,6 +34,8 @@ The daily workflow runs at **06:17 UTC**. You can also run it from **Actions →
 
 The contribution script uses Python's standard library to read the public calendar from GitHub. The workflow uses the repository's automatic `GITHUB_TOKEN` to commit updates; no personal access token or additional secret is needed. It runs the contribution tests, fetches the latest calendar, and commits only changed output files. A failed refresh leaves the last committed calendar available.
 
+Private contribution counts are included when **Contribution settings → Private contributions** is enabled on your GitHub profile. This exposes anonymized activity counts and dates to public visitors; repository names and contents remain private. The SVG reflects the same publicly visible calendar.
+
 To run the checks and refresh locally:
 
 ```sh
