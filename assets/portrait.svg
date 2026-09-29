@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="360" viewBox="0 0 370 360" role="img" aria-labelledby="title desc">
+<title id="title">portrait.txt</title><desc id="desc">An animated ASCII portrait of Oliver Browne.</desc>
+<rect x=".5" y=".5" width="369" height="359" rx="12" fill="#0d1117" stroke="#30363d"/>
+<path d="M1 40H369" stroke="#30363d"/>
+<circle cx="19" cy="21" r="4" fill="#ff7b72"/><circle cx="33" cy="21" r="4" fill="#e3b341"/><circle cx="47" cy="21" r="4" fill="#3fb950"/>
+<g font-family="ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace">
+<text x="352" y="25" text-anchor="end" font-size="10" fill="#8b949e">portrait.txt</text>
+<style>@keyframes type{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+.row{white-space:pre;animation:type .24s steps(18,end) both}
+@media(prefers-reduced-motion:reduce){.row{animation:none!important}}</style>
+<g fill="#e6edf3" font-size="6.4" xml:space="preserve">
+<text class="row" x="35" y="62.00" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.000s">                                                                              </text>
+<text class="row" x="35" y="68.35" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.032s">                                                                              </text>
+<text class="row" x="35" y="74.70" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.064s">                              ..,:;rssXsi,.                                   </text>
+<text class="row" x="35" y="81.05" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.096s">                           ,XH9##99G2XA23h532i,.                              </text>
+<text class="row" x="35" y="87.40" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.128s">                        :2S&amp;B9MAXsXrsXsr;iirsirX25r,                          </text>
+<text class="row" x="35" y="93.75" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.160s">                      .5&amp;SGSH2rrriiiiri;;:iri;irirX533X:                      </text>
+<text class="row" x="35" y="100.10" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.192s">                     i#BHXAXrrsXsrii:::ii;iri;;i;i;rs2S9r                     </text>
+<text class="row" x="35" y="106.45" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.224s">                    ,#5hXXsrArr;i;i;:ii;;:;,,,,::;i;i;s2Mr                    </text>
+<text class="row" x="35" y="112.80" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.256s">                    55XXrsirs;i;;ir;;i;:,.:;ri;::,;;;iiriMi                   </text>
+<text class="row" x="35" y="119.15" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.288s">                   ,9hsirr;:;;i;sri;rs;,,:;:i,:::::;iiiir39:                  </text>
+<text class="row" x="35" y="125.50" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.320s">                   5BM;;sir:,,,:irXXXr;;;ii:;;;:::;ii;;is39:                  </text>
+<text class="row" x="35" y="131.85" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.352s">                   h92irr;;;::;s3MGHh52252XAXsr;::ri;i;;s2M.                  </text>
+<text class="row" x="35" y="138.20" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.384s">                   i&amp;Mii;i;:;rAM##SGGHHMhhh522AXsr::;;;;iAH.                  </text>
+<text class="row" x="35" y="144.55" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.416s">                   .#B2;rr;;is5G9#GGHHHHMMMh33522Ai.,:;r2#M                   </text>
+<text class="row" x="35" y="150.90" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.448s">                    3925GA,sr2#9##SGGGHMMMMhh3552Ar,:;;XG5                    </text>
+<text class="row" x="35" y="157.25" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.480s">                    i#A3G#5rA9&amp;&amp;B#GGGGSGHMHMh35522r::ihGi                     </text>
+<text class="row" x="35" y="163.60" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.512s">                    ,BSMM3GA#@B9G5AsrX253MMh5222A2i.sH9s                      </text>
+<text class="row" x="35" y="169.95" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.544s">                     GSHMh#G&amp;&amp;#GMh5sssX5hH2s;:iirXiX#9B;                      </text>
+<text class="row" x="35" y="176.30" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.576s">                     5#HSGSB&amp;&amp;9SSSHM35hHSMXXXX2X22sS9#B:                      </text>
+<text class="row" x="35" y="182.65" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.608s">                     :B9H3GB&amp;B9SGGHHGSS#Sh2555533A3B#9G.                      </text>
+<text class="row" x="35" y="189.00" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.640s">                      rB#3G&amp;B9#SSSGHHS##Gh55333522S99S,                       </text>
+<text class="row" x="35" y="195.35" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.672s">                      .9BBBBB99#9#SHMGS#Hh253352H#99S,                        </text>
+<text class="row" x="35" y="201.70" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.704s">                      2BBBB999999#SGHMhM3A2535AhB99B;                         </text>
+<text class="row" x="35" y="208.05" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.736s">                     ,B&amp;B&amp;B##99B9#Ghhhh25AA2525BB99h                          </text>
+<text class="row" x="35" y="214.40" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.768s">                    ;#BG#&amp;9#HG99#GMM35AAXsA2A55h9BB5:.                        </text>
+<text class="row" x="35" y="220.75" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.800s">                  :h95ih&amp;S##GMG9#GHHM52AAA2AASS.iM#B&amp;BShAr,                   </text>
+<text class="row" x="35" y="227.10" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.832s">              ,s532Xi h@@5H#GHHHGSGHMh552AAs5#9M .;2hG#BBB9Ms.                </text>
+<text class="row" x="35" y="233.45" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.864s">          .i2HG3i .:,2@@@AAGGHMHHh333522XAArG999;.,  ,iX3G9BB9hi.             </text>
+<text class="row" x="35" y="239.80" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.896s">      .i5G9H2i,::,:::B@@@Mi5MHMMMh35AAAA22rMB#9&amp;5 ,,,,,. :r5G9BB#5:           </text>
+<text class="row" x="35" y="246.15" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.928s">    sS&amp;9HAr:,:i;:::.5@@@@9sX3MMhhhh555555sh@B9B&amp;S.,,,,,:,,,.:s3G9B9X          </text>
+<text class="row" x="35" y="252.50" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.960s">  iS9hXi::;;::;;:,,.S@@@@&amp;hs23hhh3333335X3@@99B&amp;B;.,,,,,,,,:,..:Xh#BG;        </text>
+<text class="row" x="35" y="258.85" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.992s">:HB5i;:;;::::::::,,r@@@@B@B2X25h3555335AM&amp;#9&amp;&amp;&amp;&amp;@X ,,,,,,,,,,::,.,iAGB5.      </text>
+<text class="row" x="35" y="265.20" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:1.024s">#5i;;i;:;::,::::::.5@@@h,S@9HAA55225h35G9#A,2#@@@5 ,,,,,,,,,:,,,::,.:h93      </text>
+<text class="row" x="35" y="271.55" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:1.056s">s;i;;;;;;:::,:::::.G@#2 .;#&amp;@95X5253hMB&amp;S2,. ,AH&amp;H ,,,,,,,,,,,,,,,,:,.59i     </text>
+<text class="row" x="35" y="277.90" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:1.088s">;i;:::::;;:::,::,.:MX  ,:.;GB@@M2533S@95r .,,.  ;i,,,,,,,,,,,,,,,,,,,:.3G     </text>
+<text class="row" x="35" y="284.25" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:1.120s">i;;::::::::::,,,,,,.,,,,,:,.i2HS5XAhMX:  ,,,,,,,,,,,,,,,,,,,,,:,,,,,,:,:GA    </text>
+<text class="row" x="35" y="290.60" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:1.152s">;;:::::::,,:::,,,,,,,:,,,,::,,..:,:,  .,,,,,,,.,,,,,,:,,,,,,,:,,,,,,,,:.X#.   </text>
+<text class="row" x="35" y="296.95" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:1.184s">;;;:::::,,,,:::,,,,,,,:,,,,:::::::,,,,,,.,,,,,,,,,,,:,,,:,,,,:,,::,,,,,,;S,   </text>
+<text class="row" x="35" y="303.30" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:1.216s">;;;:::::::,,,::,,,,,,,::,,,,:::::,,,,,,,.,,,,,,,,,,,:,.,:,,,,,,,,,,,,,,:.H,   </text>
+<text class="row" x="35" y="309.65" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:1.248s">;::::::,,,::..::,,,,,,,,,,,,,:::,,,,,,,..,,,,,,,,,,::,.,,,,,,:,,,,,,,,,, h;   </text>
+<text class="row" x="35" y="316.00" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:1.280s">;:::::::,,.,,.,:,,.,,,,,,,,,,::::,,,,,..,,,,,,,,,,,::,.,,.,:,,,,,,,,,,,: hi   </text>
+<text class="row" x="35" y="322.35" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:1.312s">::;::,,,,,,....::,,.,,,,,,,,,:::,,,,,,.,,,,,,,,,,,::,,.,..,,,,,,,,,,,,,,.Hr   </text>
+<text class="row" x="35" y="328.70" textLength="300" lengthAdjust="spacingAndGlyphs" style="animation-delay:1.344s">;:,,:::,,,.,,..,:,,..,,,,,,,,,::,,,,,,,,,,,,,,,,,,:::,.,...,,,,,,,,,,,,,.2s   </text>
+</g>
+<text x="19" y="342" font-size="10" fill="#8b949e"><tspan fill="#7ee787">●</tspan> oliBrowne / portrait loaded</text>
+</g></svg>

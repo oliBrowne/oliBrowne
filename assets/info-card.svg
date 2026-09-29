@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="360" viewBox="0 0 490 360" role="img" aria-labelledby="title desc">
+<title id="title">neofetch</title><desc id="desc">Profile details for Oliver Browne</desc>
+<rect x=".5" y=".5" width="489" height="359" rx="12" fill="#0d1117" stroke="#30363d"/>
+<path d="M1 40H489" stroke="#30363d"/>
+<circle cx="19" cy="21" r="4" fill="#ff7b72"/><circle cx="33" cy="21" r="4" fill="#e3b341"/><circle cx="47" cy="21" r="4" fill="#3fb950"/>
+<g font-family="ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace">
+<text x="472" y="25" text-anchor="end" font-size="10" fill="#8b949e">neofetch</text>
+<style>@keyframes reveal{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+.entry{animation:reveal .36s ease-out both}
+@media(prefers-reduced-motion:reduce){.entry{animation:none!important}}</style>
+<text x="25" y="76" font-size="23" font-weight="700" fill="#e6edf3">Oliver Browne</text>
+<text x="25" y="99" font-size="12" fill="#7ee787">oliBrowne@github</text>
+<path d="M25 113H465" stroke="#30363d" stroke-dasharray="3 4"/>
+<g class="entry" style="animation-delay:0.20s" font-size="12.5"><text x="25" y="139" fill="#79c0ff">now</text><text x="111" y="139" fill="#e6edf3">Computer Engineering student</text></g>
+<g class="entry" style="animation-delay:0.33s" font-size="12.5"><text x="25" y="165" fill="#79c0ff">school</text><text x="111" y="165" fill="#e6edf3">CU Boulder</text></g>
+<g class="entry" style="animation-delay:0.46s" font-size="12.5"><text x="25" y="191" fill="#79c0ff">base</text><text x="111" y="191" fill="#e6edf3">Boulder, Colorado</text></g>
+<g class="entry" style="animation-delay:0.59s" font-size="12.5"><text x="25" y="217" fill="#79c0ff">stack</text><text x="111" y="217" fill="#e6edf3">C / C++ / TypeScript</text></g>
+<g class="entry" style="animation-delay:0.72s" font-size="12.5"><text x="25" y="243" fill="#79c0ff">ask me</text><text x="111" y="243" fill="#e6edf3">Renewable energy</text></g>
+<g class="entry" style="animation-delay:0.85s" font-size="12.5"><text x="25" y="269" fill="#79c0ff">offline</text><text x="111" y="269" fill="#e6edf3">Gaming / running / coding</text></g>
+<g class="entry" style="animation-delay:0.98s" font-size="12.5"><text x="25" y="295" fill="#79c0ff">built</text><text x="111" y="295" fill="#e6edf3">Tetris on STM32</text></g>
+<path d="M25 318H465" stroke="#30363d"/>
+<rect x="25" y="331" width="12" height="10" rx="2" fill="#0e4429"/>
+<rect x="40" y="331" width="12" height="10" rx="2" fill="#006d32"/>
+<rect x="55" y="331" width="12" height="10" rx="2" fill="#26a641"/>
+<rect x="70" y="331" width="12" height="10" rx="2" fill="#39d353"/>
+<rect x="85" y="331" width="12" height="10" rx="2" fill="#7ee787"/>
+<rect x="100" y="331" width="12" height="10" rx="2" fill="#a5d6ff"/>
+<text x="465" y="340" text-anchor="end" font-size="10" fill="#8b949e">build · learn · repeat</text>
+</g></svg>

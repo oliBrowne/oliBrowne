@@ -1,0 +1,12 @@
+{
+  "username": "oliBrowne",
+  "name": "Oliver Browne",
+  "title": "Computer Engineering student",
+  "school": "CU Boulder",
+  "location": "Boulder, Colorado",
+  "stack": "C / C++ / TypeScript",
+  "interests": "Renewable energy",
+  "offline": "Gaming / running / coding",
+  "project": "Tetris on STM32",
+  "portrait_source": "assets/source-avatar.png"
+}

@@ -1,0 +1,56 @@
+name: Refresh profile contributions
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/contributions.py
+      - scripts/test_contributions.py
+      - .github/workflows/update-profile.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-contributions-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+
+      - name: Run contribution tests
+        run: python -m unittest discover -s scripts -p 'test_*.py'
+
+      - name: Refresh contribution data and SVG
+        run: python scripts/contributions.py --username oliBrowne
+
+      - name: Commit refreshed calendar
+        shell: bash
+        run: |
+          git add data/contributions.json assets/contrib-heatmap.svg
+          if git diff --cached --quiet; then
+            printf '%s\n' 'Contribution calendar is already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh profile contribution calendar'
+          git pull --rebase origin main
+          git push origin HEAD:main
