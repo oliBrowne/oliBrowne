@@ -29,7 +29,7 @@ An AI coding assistant ran the commands on my Windows machine. I kept every prom
 
 \subsection*{Setup}
 
-I had no paid API key, so I used Qwen2.5-Coder-1.5B (4-bit) through llama.cpp in place of GPT-4. It ran on the CPU of a Ryzen 7 5800X with 32\,GB of RAM. This can't reproduce the papers' numbers. It does show how much depends on the framework and how much on the model. Both tools got the same task, \texttt{merge\_intervals}, which has four traps: don't change the input, don't share its inner lists, don't shrink a containing interval, and reject reversed intervals. I wrote the tests before any model call.
+I had no paid API key, so I used Qwen2.5-Coder-1.5B (4-bit) through llama.cpp in place of GPT-4. It ran on the CPU of a Ryzen 7 5800X with 32\,GB of RAM. This can't reproduce the papers' numbers, but it shows how much depends on the framework and how much on the model. Both tools got the same task, \texttt{merge\_intervals}, which has four traps: don't change the input, don't share its inner lists, don't shrink a containing interval, and reject reversed intervals. I wrote the tests before any model call.
 
 AutoGen installed in about six seconds. Version 0.7 is a rewrite, though, so the paper's code no longer runs. Using a local model only needed a \texttt{base\_url} and a dummy API key. The code executor failed inside my Windows sandbox but worked outside it.
 
@@ -45,7 +45,7 @@ I built a two-role team from the official tutorial, with one role writing code a
 
 \section{Strengths}
 
-AutoGen lets a plain program, such as a test runner, join the chat as an agent. In my run, that program was the only reliable part. AutoGen was also easy to set up, and its logs showed what each agent did and why the run stopped. MetaGPT's roles react to message types, so a workflow takes a line or two to describe. It makes one call per role, which let it finish in 5 seconds against AutoGen's 77.
+AutoGen lets a plain program, such as a test runner, join the chat as an agent, which is how I got honest test results into the loop. AutoGen was also easy to set up, and its logs showed what each agent did and why the run stopped. MetaGPT's roles react to message types, so a workflow takes a line or two to describe. It makes one call per role, which let it finish in 5 seconds against AutoGen's 77.
 
 \section{Weaknesses}
 
@@ -57,7 +57,7 @@ Both tools turn LLM workflows into code you can version and test. AutoGen suits 
 
 \section{Reflection and recommendations}
 
-Both frameworks routed messages and ended runs correctly, and every quality failure came from the agents. Adding a reviewer made AutoGen's result worse. Running the tools side by side showed the trade-off: AutoGen can retry but is slow, while MetaGPT is fast and can't recover. AutoGen should detect when an agent repeats the same code and stop or ask a human. MetaGPT should run tests by default and move its cloud packages into optional extras.
+Both frameworks routed messages and ended runs correctly, and every quality failure came from the agents. In AutoGen the reviewer never corrected anything and only added false approvals. Running the tools side by side showed the trade-off: AutoGen can retry but is slow, while MetaGPT is fast and can't recover. AutoGen should detect when an agent repeats the same code and stop or ask a human. MetaGPT should run tests by default and move its cloud packages into optional extras.
 
 \subsection*{Evidence summary}
 
