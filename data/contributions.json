@@ -1,14 +1,14 @@
 {
   "username": "oliBrowne",
   "source": "https://github.com/users/oliBrowne/contributions",
-  "fetched_on": "2026-10-07",
+  "fetched_on": "2026-10-08",
   "range": {
     "start": "2025-10-05",
-    "end": "2026-10-07"
+    "end": "2026-10-08"
   },
-  "total_contributions": 327,
-  "active_days": 44,
-  "longest_streak": 11,
+  "total_contributions": 335,
+  "active_days": 45,
+  "longest_streak": 12,
   "days": [
     {
       "date": "2025-10-05",
@@ -1847,7 +1847,12 @@
     },
     {
       "date": "2026-10-07",
-      "count": 1,
+      "count": 5,
+      "level": 1
+    },
+    {
+      "date": "2026-10-08",
+      "count": 4,
       "level": 1
     }
   ]
