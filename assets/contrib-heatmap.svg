@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="268" viewBox="0 0 860 268" role="img" aria-labelledby="title description">
-<title id="title">oliBrowne / contribution history</title><desc id="description">1921 contributions, 62 active days, and a longest streak of 29 days from 2025-10-26 through 2026-10-25. Counts reflect the contribution calendar visible on the public GitHub profile.</desc>
+<title id="title">oliBrowne / contribution history</title><desc id="description">2002 contributions, 63 active days, and a longest streak of 30 days from 2025-10-26 through 2026-10-26. Counts reflect the contribution calendar visible on the public GitHub profile.</desc>
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}
 .day{opacity:1;animation:arrive .36s ease-out backwards}
@@ -12,7 +12,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospac
 <text x="430" y="22" text-anchor="middle" font-size="11" fill="#8b949e">oliBrowne / contribution history</text>
 <text x="24" y="60" font-size="12" fill="#73e7a1">$ git log --contributions</text>
 <text x="24" y="253" font-size="10" fill="#8b949e">Observed range only · public profile calendar</text>
-<text x="836" y="253" text-anchor="end" font-size="10" fill="#8b949e">2025-10-26 — 2026-10-25</text>
+<text x="836" y="253" text-anchor="end" font-size="10" fill="#8b949e">2025-10-26 — 2026-10-26</text>
 <text x="34" y="114" font-size="10" fill="#8b949e">Mon</text>
 <text x="34" y="142" font-size="10" fill="#8b949e">Wed</text>
 <text x="34" y="170" font-size="10" fill="#8b949e">Fri</text>
@@ -383,7 +383,7 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospac
 <rect class="day" x="774" y="120" width="10" height="10" rx="2" fill="#165b43" style="animation-delay:1.330s"><title>2026-10-13: 36 contributions</title></rect>
 <rect class="day" x="774" y="134" width="10" height="10" rx="2" fill="#165b43" style="animation-delay:1.370s"><title>2026-10-14: 80 contributions</title></rect>
 <rect class="day" x="774" y="148" width="10" height="10" rx="2" fill="#165b43" style="animation-delay:1.410s"><title>2026-10-15: 73 contributions</title></rect>
-<rect class="day" x="774" y="162" width="10" height="10" rx="2" fill="#22845a" style="animation-delay:1.450s"><title>2026-10-16: 120 contributions</title></rect>
+<rect class="day" x="774" y="162" width="10" height="10" rx="2" fill="#22845a" style="animation-delay:1.450s"><title>2026-10-16: 121 contributions</title></rect>
 <rect class="day" x="774" y="176" width="10" height="10" rx="2" fill="#73e7a1" style="animation-delay:1.490s"><title>2026-10-17: 273 contributions</title></rect>
 <rect class="day" x="788" y="92" width="10" height="10" rx="2" fill="#22845a" style="animation-delay:1.275s"><title>2026-10-18: 117 contributions</title></rect>
 <rect class="day" x="788" y="106" width="10" height="10" rx="2" fill="#36b778" style="animation-delay:1.315s"><title>2026-10-19: 208 contributions</title></rect>
@@ -392,9 +392,10 @@ text{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospac
 <rect class="day" x="788" y="148" width="10" height="10" rx="2" fill="#22845a" style="animation-delay:1.435s"><title>2026-10-22: 94 contributions</title></rect>
 <rect class="day" x="788" y="162" width="10" height="10" rx="2" fill="#165b43" style="animation-delay:1.475s"><title>2026-10-23: 48 contributions</title></rect>
 <rect class="day" x="788" y="176" width="10" height="10" rx="2" fill="#165b43" style="animation-delay:1.515s"><title>2026-10-24: 46 contributions</title></rect>
-<rect class="day" x="802" y="92" width="10" height="10" rx="2" fill="#165b43" style="animation-delay:1.300s"><title>2026-10-25: 3 contributions</title></rect>
+<rect class="day" x="802" y="92" width="10" height="10" rx="2" fill="#165b43" style="animation-delay:1.300s"><title>2026-10-25: 77 contributions</title></rect>
+<rect class="day" x="802" y="106" width="10" height="10" rx="2" fill="#165b43" style="animation-delay:1.340s"><title>2026-10-26: 6 contributions</title></rect>
 <path d="M24 207H836" stroke="#30363d"/>
-<text x="24" y="231" font-size="12" fill="#e6edf3">1,921 contributions   ·   62 active days   ·   29-day longest streak</text>
+<text x="24" y="231" font-size="12" fill="#e6edf3">2,002 contributions   ·   63 active days   ·   30-day longest streak</text>
 <text x="699" y="231" font-size="10" fill="#8b949e">Less</text>
 <rect x="729" y="222" width="9" height="9" rx="2" fill="#161b22"/>
 <rect x="741" y="222" width="9" height="9" rx="2" fill="#165b43"/>
